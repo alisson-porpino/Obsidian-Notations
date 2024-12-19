@@ -171,14 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Tmux/Comandos.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of Comandos"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -196,13 +195,14 @@
       "zk-prefixer:Create new unique note": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "terminal:Open terminal": false
+      "terminal:Open terminal": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "10c6e722d905c4a3",
+  "active": "25aba5183463fa01",
   "lastOpenFiles": [
-    "Tmux/Comandos.md",
     "Untitled.md",
+    "Tmux/Comandos.md",
     "Tmux",
     "SUAP/Tratativas de erros.md",
     "Excalidraw/Desenho Teste.md",

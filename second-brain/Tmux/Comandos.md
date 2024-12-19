@@ -58,6 +58,20 @@ ___
 ###### Gerenciando a sessão atual.
 
 - Para sair e salvar a sessão atual: `CTRL + B | D` (Aperte CTRL + B, em seguida D)
+
+- Para entrar no modo de inserção: `CTRL + B | :` (Aperte CTRL + B, em seguida ":")
+
+- No modo de inserção, para sair sem salvar: `kill-session` (Digite kill-session e aperte ENTER)
+
+- No modo de inserção, para sair e salvar a sessão atual: `detach` (Digite detach e aperte ENTER)
+
+- No modo de inserção, para criar uma nova sessão: `new -s nome_da_sessao` (Digite new -s nome_da_sessao e aperte ENTER)
+
+- No modo de inserção, para renomear a janela atual: `rename-window novo_nome` (Digite rename-window novo_nome e aperte ENTER)
+
+- No modo de inserção, para renomear a sessão atual: `rename-session -t nome_da_sessao novo_nome` (Digite rename-session -t nome_da_sessao novo_nome e aperte ENTER)
+
+- Para renomear a sessão atual: `CTRL + B | $` (Aperte CTRL + B, em seguida $)
 ___
 ###### Gerenciando a janela atual.
 
@@ -72,6 +86,8 @@ ___
 - Para visualizar a numeração de uma janela específica: `CTRL + Q` (Aperte CTRL + Q)
 
 - Em conjunto com isso, outra forma para transitar entre os paineis: `CTRL + B | Q | numero_do_terminal` (Aperte CTRL + B, em seguida Q, em seguida 0, ou 1, ou 2...)
+
+- Para trocar a posição de um painel: `CTRL + B | { ou }` (Aperte CTRL + B, em seguida "{" ou "}" )
 
 - Para modificar o tamanho desse painel: `CTRL + B | CTRL/ALT + ArrowKeys` (Aperte CTRL + B, Depois segure CTRL/ALT + setas do teclado)
 
