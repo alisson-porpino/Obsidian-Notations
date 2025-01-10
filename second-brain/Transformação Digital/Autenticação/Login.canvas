@@ -1,0 +1,317 @@
+{
+  "nodes": [
+    {
+      "id": "4ea47dc44d306523",
+      "type": "text",
+      "text": "Login",
+      "styleAttributes": {
+        "shape": null
+      },
+      "x": -1251,
+      "y": 30,
+      "width": 104,
+      "height": 60,
+      "color": "#ffffff"
+    },
+    {
+      "id": "10496f55570241c8",
+      "type": "text",
+      "text": "Senha",
+      "styleAttributes": {
+        "shape": "parallelogram"
+      },
+      "x": -1189,
+      "y": 140,
+      "width": 108,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "7a022a14de6584b9",
+      "type": "text",
+      "text": "CPF",
+      "styleAttributes": {
+        "shape": "parallelogram"
+      },
+      "x": -1285,
+      "y": 140,
+      "width": 91,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "0cfa0606a5960863",
+      "type": "text",
+      "text": "Tentativa de Login",
+      "styleAttributes": {
+        "shape": null
+      },
+      "x": -1285,
+      "y": 240,
+      "width": 197,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "acc74bf6d1d94ab8",
+      "type": "text",
+      "text": "Não",
+      "styleAttributes": {
+        "border": "dotted"
+      },
+      "x": -1413,
+      "y": 320,
+      "width": 94,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "a6b2a98217375086",
+      "type": "text",
+      "text": "Sim",
+      "styleAttributes": {
+        "border": "dotted"
+      },
+      "x": -1055,
+      "y": 320,
+      "width": 91,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "5bf7b6a2088ee0be",
+      "type": "text",
+      "text": "Senha errada?",
+      "styleAttributes": {
+        "shape": "diamond"
+      },
+      "x": -1446,
+      "y": 400,
+      "width": 160,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "7e1a9956ff168dc6",
+      "type": "text",
+      "text": "Sim",
+      "styleAttributes": {
+        "border": "dotted"
+      },
+      "x": -1550,
+      "y": 500,
+      "width": 91,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "0616e7c3bc75afe5",
+      "type": "text",
+      "text": "Não",
+      "styleAttributes": {
+        "border": "dotted"
+      },
+      "x": -1286,
+      "y": 500,
+      "width": 94,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "16521718deb0aa07",
+      "type": "text",
+      "text": "Redirecionamento",
+      "styleAttributes": {
+        "shape": "document"
+      },
+      "x": -1108,
+      "y": 500,
+      "width": 197,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "4d90af72b8a6b18a",
+      "type": "text",
+      "text": "User sem cadastro?",
+      "styleAttributes": {
+        "shape": "diamond"
+      },
+      "x": -1285,
+      "y": 320,
+      "width": 197,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "c625b904a5ec1913",
+      "type": "text",
+      "text": "Nota: User \"sem cadastro\" daqui é o TE sem preenchimento de dados.",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "x": -911,
+      "y": 190,
+      "width": 260,
+      "height": 100,
+      "color": "#9900ff"
+    },
+    {
+      "id": "6f8f59b457d23901",
+      "type": "text",
+      "text": "\"Usuário ou senha inválidos. Por favor verifique suas credenciais\"",
+      "styleAttributes": {
+        "shape": "document"
+      },
+      "x": -1511,
+      "y": 600,
+      "width": 260,
+      "height": 120,
+      "color": "1"
+    }
+  ],
+  "edges": [
+    {
+      "id": "0c0fe21a2fc3a9cd",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "4ea47dc44d306523",
+      "fromSide": "bottom",
+      "toNode": "10496f55570241c8",
+      "toSide": "top"
+    },
+    {
+      "id": "8da8f00dbf947586",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "4ea47dc44d306523",
+      "fromSide": "bottom",
+      "toNode": "7a022a14de6584b9",
+      "toSide": "top"
+    },
+    {
+      "id": "5b3b07f497676db3",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "10496f55570241c8",
+      "fromSide": "bottom",
+      "toNode": "0cfa0606a5960863",
+      "toSide": "top"
+    },
+    {
+      "id": "018b4377cf44e6ef",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "7a022a14de6584b9",
+      "fromSide": "bottom",
+      "toNode": "0cfa0606a5960863",
+      "toSide": "top"
+    },
+    {
+      "id": "abe9c124d1ef35e6",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "0cfa0606a5960863",
+      "fromSide": "bottom",
+      "toNode": "4d90af72b8a6b18a",
+      "toSide": "top"
+    },
+    {
+      "id": "5c8e8cc7ffd360c7",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "acc74bf6d1d94ab8",
+      "fromSide": "bottom",
+      "toNode": "5bf7b6a2088ee0be",
+      "toSide": "top"
+    },
+    {
+      "id": "941dc3c57feb6df0",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "4d90af72b8a6b18a",
+      "fromSide": "left",
+      "toNode": "acc74bf6d1d94ab8",
+      "toSide": "right"
+    },
+    {
+      "id": "1df1f4530d35977e",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "4d90af72b8a6b18a",
+      "fromSide": "right",
+      "toNode": "a6b2a98217375086",
+      "toSide": "left"
+    },
+    {
+      "id": "7f65b8fb3e5cb9c7",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "5bf7b6a2088ee0be",
+      "fromSide": "bottom",
+      "toNode": "0616e7c3bc75afe5",
+      "toSide": "top"
+    },
+    {
+      "id": "ae4283b7c48bde23",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "5bf7b6a2088ee0be",
+      "fromSide": "bottom",
+      "toNode": "7e1a9956ff168dc6",
+      "toSide": "top"
+    },
+    {
+      "id": "5ecfd6b577dc5cc3",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "7e1a9956ff168dc6",
+      "fromSide": "bottom",
+      "toNode": "6f8f59b457d23901",
+      "toSide": "top"
+    },
+    {
+      "id": "d2815a91072991d9",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "0616e7c3bc75afe5",
+      "fromSide": "right",
+      "toNode": "16521718deb0aa07",
+      "toSide": "left"
+    },
+    {
+      "id": "1e1baa12bb84001f",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "a6b2a98217375086",
+      "fromSide": "bottom",
+      "toNode": "16521718deb0aa07",
+      "toSide": "top"
+    },
+    {
+      "id": "1e168d5c246deca1",
+      "styleAttributes": {
+        "path": "dotted"
+      },
+      "fromNode": "a6b2a98217375086",
+      "fromSide": "right",
+      "toNode": "c625b904a5ec1913",
+      "toSide": "left",
+      "fromEnd": "arrow"
+    }
+  ],
+  "metadata": {}
+}

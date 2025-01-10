@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "1e7b1f2518ee9d80",
+      "type": "file",
+      "file": "Transformação Digital/Autenticação/Esqueci_Senha.canvas",
+      "portalToFile": "Transformação Digital/Autenticação/Esqueci_Senha.canvas",
+      "x": -660,
+      "y": -20,
+      "width": 760,
+      "height": 820
+    },
+    {
+      "id": "949a66b9981e4cd4",
+      "type": "file",
+      "file": "Transformação Digital/Autenticação/Login.canvas",
+      "styleAttributes": {},
+      "portalToFile": "Transformação Digital/Autenticação/Login.canvas",
+      "x": -1680,
+      "y": -20,
+      "width": 804,
+      "height": 820
+    },
+    {
+      "id": "776a9d10aea8e4e9",
+      "type": "text",
+      "text": "Página Inicial do sistema",
+      "styleAttributes": {
+        "shape": "pill"
+      },
+      "x": -975,
+      "y": 940,
+      "width": 237,
+      "height": 60,
+      "color": "5",
+      "edgesToNodeFromPortal": {
+        "949a66b9981e4cd4": [
+          {
+            "id": "062a86544f961e43",
+            "styleAttributes": {
+              "pathfindingMethod": "square"
+            },
+            "fromNode": "949a66b9981e4cd4-16521718deb0aa07",
+            "fromSide": "bottom",
+            "toNode": "776a9d10aea8e4e9",
+            "toSide": "top"
+          }
+        ],
+        "1e7b1f2518ee9d80": [
+          {
+            "id": "31430a870a3458d1",
+            "styleAttributes": {
+              "pathfindingMethod": "square"
+            },
+            "fromNode": "1e7b1f2518ee9d80-3122f89c63ed3e0b",
+            "fromSide": "left",
+            "toNode": "776a9d10aea8e4e9",
+            "toSide": "top"
+          }
+        ]
+      }
+    },
+    {
+      "id": "29343ec60a18ea44",
+      "type": "text",
+      "text": "Autenticação",
+      "styleAttributes": {
+        "shape": "pill"
+      },
+      "x": -934,
+      "y": -200,
+      "width": 156,
+      "height": 60,
+      "color": "5",
+      "edgesToNodeFromPortal": {
+        "949a66b9981e4cd4": [
+          {
+            "id": "b0864354a275cc39",
+            "styleAttributes": {
+              "pathfindingMethod": "square"
+            },
+            "fromNode": "29343ec60a18ea44",
+            "fromSide": "bottom",
+            "toNode": "949a66b9981e4cd4-4ea47dc44d306523",
+            "toSide": "top"
+          }
+        ],
+        "1e7b1f2518ee9d80": [
+          {
+            "id": "d2d6d0d029c2b334",
+            "styleAttributes": {
+              "pathfindingMethod": "square"
+            },
+            "fromNode": "29343ec60a18ea44",
+            "fromSide": "bottom",
+            "toNode": "1e7b1f2518ee9d80-01e1988ddf475b52",
+            "toSide": "top"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [],
+  "metadata": {}
+}

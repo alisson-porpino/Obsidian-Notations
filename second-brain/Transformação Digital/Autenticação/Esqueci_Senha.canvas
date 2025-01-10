@@ -1,0 +1,323 @@
+{
+  "nodes": [
+    {
+      "id": "01e1988ddf475b52",
+      "type": "text",
+      "text": "Esqueci a senha",
+      "styleAttributes": {
+        "shape": null
+      },
+      "x": -207,
+      "y": 30,
+      "width": 180,
+      "height": 60,
+      "color": "#ffffff"
+    },
+    {
+      "id": "56a1d2321adccbb4",
+      "type": "text",
+      "text": "Tentativa de Redefinição",
+      "styleAttributes": {
+        "shape": null
+      },
+      "x": -234,
+      "y": 200,
+      "width": 236,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "0db16c34d14da4ff",
+      "type": "text",
+      "text": "User sem cadastro?",
+      "styleAttributes": {
+        "shape": "diamond"
+      },
+      "x": -214,
+      "y": 280,
+      "width": 197,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "5f7c97db89272b88",
+      "type": "text",
+      "text": "Sim",
+      "styleAttributes": {
+        "border": "dotted"
+      },
+      "x": -233,
+      "y": 380,
+      "width": 91,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "f50379a15f89e81a",
+      "type": "text",
+      "text": "Não",
+      "styleAttributes": {
+        "border": "dotted"
+      },
+      "x": -88,
+      "y": 380,
+      "width": 94,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "33717ec787017485",
+      "type": "text",
+      "text": "CPF",
+      "styleAttributes": {
+        "shape": "parallelogram"
+      },
+      "x": -162,
+      "y": 120,
+      "width": 91,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "5aa5f01596f14930",
+      "type": "text",
+      "text": "\"CPF incorreto ou não encontrado\"",
+      "styleAttributes": {
+        "shape": "document"
+      },
+      "x": -284,
+      "y": 480,
+      "width": 193,
+      "height": 120,
+      "color": "1"
+    },
+    {
+      "id": "0675ac8397e218d5",
+      "type": "text",
+      "text": "CPF encontrado?",
+      "styleAttributes": {
+        "shape": "diamond"
+      },
+      "x": -23,
+      "y": 480,
+      "width": 180,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "76cd94f5f507d96a",
+      "type": "text",
+      "text": "Não",
+      "styleAttributes": {
+        "border": "dotted"
+      },
+      "x": -45,
+      "y": 580,
+      "width": 94,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "3b96cffb96abccc0",
+      "type": "text",
+      "text": "Sim",
+      "styleAttributes": {
+        "border": "dotted"
+      },
+      "x": 107,
+      "y": 580,
+      "width": 91,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "a4bda2d1090a0828",
+      "type": "text",
+      "text": "\"Link de redefinição de senha enviado para o e-mail cadastrado\"",
+      "styleAttributes": {
+        "shape": "document"
+      },
+      "x": 23,
+      "y": 660,
+      "width": 260,
+      "height": 120,
+      "color": "1"
+    },
+    {
+      "id": "05cae340902580fc",
+      "type": "text",
+      "text": "Link Redefinição",
+      "styleAttributes": {
+        "shape": "parallelogram"
+      },
+      "x": 63,
+      "y": 820,
+      "width": 179,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "0ab37feb3632beda",
+      "type": "text",
+      "text": "\"Insira a nova senha\"",
+      "styleAttributes": {
+        "shape": "document"
+      },
+      "x": -284,
+      "y": 660,
+      "width": 216,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "3122f89c63ed3e0b",
+      "type": "text",
+      "text": "Redefinição de senha",
+      "styleAttributes": {},
+      "x": -283,
+      "y": 820,
+      "width": 214,
+      "height": 60,
+      "color": "4"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e5cf15c69a6c5b85",
+      "styleAttributes": {},
+      "fromNode": "01e1988ddf475b52",
+      "fromSide": "bottom",
+      "toNode": "33717ec787017485",
+      "toSide": "top"
+    },
+    {
+      "id": "58c44abfd4367c3a",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "56a1d2321adccbb4",
+      "fromSide": "bottom",
+      "toNode": "0db16c34d14da4ff",
+      "toSide": "top"
+    },
+    {
+      "id": "e8b9289a24aeaa48",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "33717ec787017485",
+      "fromSide": "bottom",
+      "toNode": "56a1d2321adccbb4",
+      "toSide": "top"
+    },
+    {
+      "id": "d7af68768e4e3e02",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "0db16c34d14da4ff",
+      "fromSide": "bottom",
+      "toNode": "5f7c97db89272b88",
+      "toSide": "top"
+    },
+    {
+      "id": "92d811d747d41715",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "0db16c34d14da4ff",
+      "fromSide": "bottom",
+      "toNode": "f50379a15f89e81a",
+      "toSide": "top"
+    },
+    {
+      "id": "76cfbb832132568c",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "5f7c97db89272b88",
+      "fromSide": "bottom",
+      "toNode": "5aa5f01596f14930",
+      "toSide": "top"
+    },
+    {
+      "id": "5f1b375d0c6e954d",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "f50379a15f89e81a",
+      "fromSide": "bottom",
+      "toNode": "0675ac8397e218d5",
+      "toSide": "top"
+    },
+    {
+      "id": "fa63b4ba387a0407",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "76cd94f5f507d96a",
+      "fromSide": "left",
+      "toNode": "5aa5f01596f14930",
+      "toSide": "right"
+    },
+    {
+      "id": "d6afe242ed9111be",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "0675ac8397e218d5",
+      "fromSide": "bottom",
+      "toNode": "76cd94f5f507d96a",
+      "toSide": "top"
+    },
+    {
+      "id": "d9b8fa264f267a4e",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "0675ac8397e218d5",
+      "fromSide": "bottom",
+      "toNode": "3b96cffb96abccc0",
+      "toSide": "top"
+    },
+    {
+      "id": "c6f706ed75326635",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "3b96cffb96abccc0",
+      "fromSide": "bottom",
+      "toNode": "a4bda2d1090a0828",
+      "toSide": "top"
+    },
+    {
+      "id": "a1eb99712d52eaf7",
+      "styleAttributes": {},
+      "fromNode": "a4bda2d1090a0828",
+      "fromSide": "bottom",
+      "toNode": "05cae340902580fc",
+      "toSide": "top"
+    },
+    {
+      "id": "248d01f1e1740524",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "05cae340902580fc",
+      "fromSide": "left",
+      "toNode": "0ab37feb3632beda",
+      "toSide": "right"
+    },
+    {
+      "id": "ee5584ba50c3959f",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "0ab37feb3632beda",
+      "fromSide": "bottom",
+      "toNode": "3122f89c63ed3e0b",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}
