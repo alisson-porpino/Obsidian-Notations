@@ -1,0 +1,376 @@
+{
+  "nodes": [
+    {
+      "id": "03dbb9d44b79b4b5",
+      "type": "text",
+      "text": "Cadastrar",
+      "styleAttributes": {},
+      "x": -51,
+      "y": 60,
+      "width": 132,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "027145f406a26570",
+      "type": "text",
+      "text": "Usuários",
+      "styleAttributes": {},
+      "x": -48,
+      "y": -20,
+      "width": 125,
+      "height": 60,
+      "color": "#ffffff"
+    },
+    {
+      "id": "dcc894f7d4298f1a",
+      "type": "text",
+      "text": "Senha",
+      "styleAttributes": {
+        "shape": "parallelogram"
+      },
+      "x": 220,
+      "y": 160,
+      "width": 108,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "98555b8fcb5c2442",
+      "type": "text",
+      "text": "CPF",
+      "styleAttributes": {
+        "shape": "parallelogram"
+      },
+      "x": -76,
+      "y": 160,
+      "width": 91,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "c97a507d3f7b944d",
+      "type": "text",
+      "text": "Nome",
+      "styleAttributes": {
+        "shape": "parallelogram"
+      },
+      "x": -184,
+      "y": 160,
+      "width": 108,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "f6a338b463113944",
+      "type": "text",
+      "text": "Email",
+      "styleAttributes": {
+        "shape": "parallelogram"
+      },
+      "x": 15,
+      "y": 160,
+      "width": 108,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "55b9de7ac2e4ec28",
+      "type": "text",
+      "text": "Role",
+      "styleAttributes": {
+        "shape": "parallelogram"
+      },
+      "x": 123,
+      "y": 160,
+      "width": 95,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "0d1f605a8bbeee9c",
+      "type": "text",
+      "text": "Nota: Depende de Perfil",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "x": 85,
+      "y": -30,
+      "width": 171,
+      "height": 80,
+      "color": "#9900ff"
+    },
+    {
+      "id": "da573ccbcaef11f5",
+      "type": "text",
+      "text": "Nota: Gerado automaticamente",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "x": 300,
+      "y": -30,
+      "width": 188,
+      "height": 80,
+      "color": "#9900ff"
+    },
+    {
+      "id": "563e210a0c017bbd",
+      "type": "text",
+      "text": "Usuário Já Cadastrado?",
+      "styleAttributes": {
+        "shape": "diamond"
+      },
+      "x": -43,
+      "y": 260,
+      "width": 224,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "5e97a717d4d622b3",
+      "type": "text",
+      "text": "Não",
+      "styleAttributes": {
+        "border": "dotted"
+      },
+      "x": 180,
+      "y": 360,
+      "width": 94,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "60f506786bd56599",
+      "type": "text",
+      "text": "Criar User no BD",
+      "styleAttributes": {},
+      "x": 137,
+      "y": 440,
+      "width": 181,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "3569f92e5725c7e9",
+      "type": "text",
+      "text": "Enviar email de confirmação",
+      "styleAttributes": {
+        "shape": "document"
+      },
+      "x": 140,
+      "y": 520,
+      "width": 175,
+      "height": 80,
+      "color": "1"
+    },
+    {
+      "id": "25b2189be5251d1e",
+      "type": "text",
+      "text": "Sim",
+      "styleAttributes": {
+        "border": "dotted"
+      },
+      "x": -121,
+      "y": 360,
+      "width": 91,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "b16cf44ea1648fd7",
+      "type": "text",
+      "text": "\"Usuário Já Cadastrado\"",
+      "styleAttributes": {
+        "shape": "document"
+      },
+      "x": -195,
+      "y": 460,
+      "width": 238,
+      "height": 60,
+      "color": "1"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edd65f5ee4fa748b",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "027145f406a26570",
+      "fromSide": "bottom",
+      "toNode": "03dbb9d44b79b4b5",
+      "toSide": "top"
+    },
+    {
+      "id": "3590928e1606f0ca",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "03dbb9d44b79b4b5",
+      "fromSide": "bottom",
+      "toNode": "98555b8fcb5c2442",
+      "toSide": "top"
+    },
+    {
+      "id": "2014cbe8ef6f9e49",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "03dbb9d44b79b4b5",
+      "fromSide": "bottom",
+      "toNode": "dcc894f7d4298f1a",
+      "toSide": "top"
+    },
+    {
+      "id": "6fae1804365d96fc",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "03dbb9d44b79b4b5",
+      "fromSide": "bottom",
+      "toNode": "f6a338b463113944",
+      "toSide": "top"
+    },
+    {
+      "id": "a200619c149a7100",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "03dbb9d44b79b4b5",
+      "fromSide": "bottom",
+      "toNode": "c97a507d3f7b944d",
+      "toSide": "top"
+    },
+    {
+      "id": "758c0283018d2e9a",
+      "styleAttributes": {
+        "path": "dotted"
+      },
+      "fromNode": "dcc894f7d4298f1a",
+      "fromSide": "right",
+      "toNode": "da573ccbcaef11f5",
+      "toSide": "bottom",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "a2964cfa9fb00032",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "03dbb9d44b79b4b5",
+      "fromSide": "bottom",
+      "toNode": "55b9de7ac2e4ec28",
+      "toSide": "top"
+    },
+    {
+      "id": "e8ce821e2a5c3236",
+      "styleAttributes": {
+        "path": "dotted"
+      },
+      "fromNode": "55b9de7ac2e4ec28",
+      "fromSide": "top",
+      "toNode": "0d1f605a8bbeee9c",
+      "toSide": "bottom",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "974b4c6920943e6e",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "f6a338b463113944",
+      "fromSide": "bottom",
+      "toNode": "563e210a0c017bbd",
+      "toSide": "top"
+    },
+    {
+      "id": "91f4b7183990242a",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "98555b8fcb5c2442",
+      "fromSide": "bottom",
+      "toNode": "563e210a0c017bbd",
+      "toSide": "top"
+    },
+    {
+      "id": "9fab14a17c6e5ab6",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "c97a507d3f7b944d",
+      "fromSide": "bottom",
+      "toNode": "563e210a0c017bbd",
+      "toSide": "top"
+    },
+    {
+      "id": "f2fd43216c0b8a7b",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "55b9de7ac2e4ec28",
+      "fromSide": "bottom",
+      "toNode": "563e210a0c017bbd",
+      "toSide": "top"
+    },
+    {
+      "id": "88368aa7697c151e",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "dcc894f7d4298f1a",
+      "fromSide": "bottom",
+      "toNode": "563e210a0c017bbd",
+      "toSide": "top"
+    },
+    {
+      "id": "0d62430b22133f0c",
+      "styleAttributes": {},
+      "fromNode": "60f506786bd56599",
+      "fromSide": "bottom",
+      "toNode": "3569f92e5725c7e9",
+      "toSide": "top"
+    },
+    {
+      "id": "cf217d51c97953fd",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "563e210a0c017bbd",
+      "fromSide": "bottom",
+      "toNode": "5e97a717d4d622b3",
+      "toSide": "top"
+    },
+    {
+      "id": "307813d9bf5a9c74",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "5e97a717d4d622b3",
+      "fromSide": "bottom",
+      "toNode": "60f506786bd56599",
+      "toSide": "top"
+    },
+    {
+      "id": "85fc2d75e1e7e5bd",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "563e210a0c017bbd",
+      "fromSide": "bottom",
+      "toNode": "25b2189be5251d1e",
+      "toSide": "top"
+    },
+    {
+      "id": "7316f750058f6c04",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "25b2189be5251d1e",
+      "fromSide": "bottom",
+      "toNode": "b16cf44ea1648fd7",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}

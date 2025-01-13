@@ -1,0 +1,120 @@
+{
+  "nodes": [
+    {
+      "id": "228df4195e951f63",
+      "type": "text",
+      "text": "Home",
+      "styleAttributes": {},
+      "x": -56,
+      "y": -200,
+      "width": 107,
+      "height": 60,
+      "color": "#ffffff"
+    },
+    {
+      "id": "9f1f65e89c3e5c99",
+      "type": "text",
+      "text": "Checar Roles do Módulo",
+      "styleAttributes": {},
+      "x": -121,
+      "y": -40,
+      "width": 238,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "76c2cc00d9fcde03",
+      "type": "text",
+      "text": "Checar Permissões da Role e Módulo",
+      "styleAttributes": {},
+      "x": -165,
+      "y": 40,
+      "width": 325,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "6bbe178e1be21f72",
+      "type": "text",
+      "text": "Checar Módulo Selecionado",
+      "styleAttributes": {},
+      "x": -142,
+      "y": -120,
+      "width": 280,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "fe82c1c267fba4a8",
+      "type": "text",
+      "text": "Renderização Dinâmica",
+      "styleAttributes": {
+        "shape": "parallelogram"
+      },
+      "x": -118,
+      "y": 120,
+      "width": 232,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "f9936ac14b8bdb5c",
+      "type": "text",
+      "text": "Nota: Página renderizada de acordo com as permissões e roles do usuário.",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "x": -500,
+      "y": 40,
+      "width": 280,
+      "height": 100,
+      "color": "#9900ff"
+    }
+  ],
+  "edges": [
+    {
+      "id": "8d3ad7f58fe554c1",
+      "styleAttributes": {},
+      "fromNode": "9f1f65e89c3e5c99",
+      "fromSide": "bottom",
+      "toNode": "76c2cc00d9fcde03",
+      "toSide": "top"
+    },
+    {
+      "id": "bcbc9896142ffacc",
+      "styleAttributes": {},
+      "fromNode": "6bbe178e1be21f72",
+      "fromSide": "bottom",
+      "toNode": "9f1f65e89c3e5c99",
+      "toSide": "top"
+    },
+    {
+      "id": "74e7ce5c949fa5d0",
+      "styleAttributes": {},
+      "fromNode": "228df4195e951f63",
+      "fromSide": "bottom",
+      "toNode": "6bbe178e1be21f72",
+      "toSide": "top"
+    },
+    {
+      "id": "c02d6b516ce18f76",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "76c2cc00d9fcde03",
+      "fromSide": "bottom",
+      "toNode": "fe82c1c267fba4a8",
+      "toSide": "top"
+    },
+    {
+      "id": "d36347af8fbfedfe",
+      "styleAttributes": {},
+      "fromNode": "f9936ac14b8bdb5c",
+      "fromSide": "right",
+      "toNode": "fe82c1c267fba4a8",
+      "toSide": "left",
+      "fromEnd": "arrow"
+    }
+  ],
+  "metadata": {}
+}

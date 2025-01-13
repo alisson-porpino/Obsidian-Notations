@@ -3,8 +3,8 @@
     {
       "id": "1e7b1f2518ee9d80",
       "type": "file",
-      "file": "Transformação Digital/Autenticação/Esqueci_Senha.canvas",
-      "portalToFile": "Transformação Digital/Autenticação/Esqueci_Senha.canvas",
+      "file": "Transformação Digital/Módulos/Autenticação/Esqueci_Senha.canvas",
+      "portalToFile": "Transformação Digital/Módulos/Autenticação/Esqueci_Senha.canvas",
       "x": -660,
       "y": -20,
       "width": 760,
@@ -13,9 +13,9 @@
     {
       "id": "949a66b9981e4cd4",
       "type": "file",
-      "file": "Transformação Digital/Autenticação/Login.canvas",
+      "file": "Transformação Digital/Módulos/Autenticação/Login.canvas",
       "styleAttributes": {},
-      "portalToFile": "Transformação Digital/Autenticação/Login.canvas",
+      "portalToFile": "Transformação Digital/Módulos/Autenticação/Login.canvas",
       "x": -1680,
       "y": -20,
       "width": 804,

@@ -1,0 +1,41 @@
+{
+  "nodes": [
+    {
+      "id": "1ceb8767ce16cec1",
+      "type": "file",
+      "file": "Transformação Digital/Módulos/Comum/Initial Page.canvas",
+      "portalToFile": "Transformação Digital/Módulos/Comum/Initial Page.canvas",
+      "x": -280,
+      "y": -160,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "4878079143dccaec",
+      "type": "text",
+      "text": "Página Inicial do sistema",
+      "styleAttributes": {
+        "shape": "pill"
+      },
+      "x": 384,
+      "y": -280,
+      "width": 237,
+      "height": 60,
+      "color": "5",
+      "edgesToNodeFromPortal": {
+        "1ceb8767ce16cec1": [
+          {
+            "id": "9ac8454bb0960836",
+            "styleAttributes": {},
+            "fromNode": "4878079143dccaec",
+            "fromSide": "bottom",
+            "toNode": "1ceb8767ce16cec1-228df4195e951f63",
+            "toSide": "top"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [],
+  "metadata": {}
+}

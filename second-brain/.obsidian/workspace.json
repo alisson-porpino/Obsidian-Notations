@@ -4,24 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "2e354ac8d3776bd7",
+        "id": "b6ddce4e8e51ca59",
         "type": "tabs",
         "children": [
           {
-            "id": "a5d9ed704226b8b9",
+            "id": "2d51ae192588972d",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Transformação Digital/Autenticação/_Fluxo Auth.canvas",
+                "file": "Transformação Digital/Módulos/Comum/Cadastro Usuário.canvas",
                 "viewState": {
-                  "x": -857.5172413793102,
-                  "y": 548.844827586207,
-                  "zoom": -0.6177524358388258
+                  "x": 126,
+                  "y": 315,
+                  "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "_Fluxo Auth"
+              "title": "Cadastro Usuário"
+            }
+          },
+          {
+            "id": "3558c3c5001440b3",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Transformação Digital/Módulos/Autenticação/Login.canvas",
+                "viewState": {
+                  "x": -1100.5,
+                  "y": 375,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Login"
             }
           }
         ]
@@ -181,31 +198,36 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a5d9ed704226b8b9",
+  "active": "2d51ae192588972d",
   "lastOpenFiles": [
-    "Transformação Digital/Autenticação/Login.canvas",
-    "Transformação Digital/Autenticação/Esqueci_Senha.canvas",
-    "Transformação Digital/Autenticação/_Fluxo Auth.canvas",
-    "Transformação Digital/PPE",
-    "Transformação Digital/PPE/NAPS",
-    "Transformação Digital/Autenticação",
+    "Transformação Digital/Módulos/Autenticação/Login.canvas",
+    "Transformação Digital/Módulos/Comum/Cadastro Usuário.canvas",
+    "Transformação Digital/Módulos/Comum/Initial Page.canvas",
+    "Transformação Digital/Módulos/Autenticação/Esqueci_Senha.canvas",
+    "Transformação Digital/Módulos/Autenticação/_Fluxo Auth.canvas",
+    "Transformação Digital/Módulos/PPE/Trabalhador Educando (TE)/Meus Dados.canvas",
+    "Transformação Digital/Módulos/PPE/Monitor e Apoio",
+    "Transformação Digital/Módulos/PPE/Trabalhador Educando (TE)",
+    "Transformação Digital/Módulos/Comum/Roles/Permission/Untitled.canvas",
+    "Transformação Digital/Módulos/Comum/Untitled.md",
+    "Untitled.md",
+    "Transformação Digital/Módulos/Comum/Roles/Permission",
+    "Transformação Digital/Módulos/Comum/Roles",
+    "Transformação Digital/Módulos/Comum",
+    "Transformação Digital/Módulos",
+    "Transformação Digital/Módulos/PPE",
+    "Transformação Digital/Módulos/NAPS",
+    "Transformação Digital/Módulos/Autenticação",
     "Tmux/Comandos.md",
     "Untitled.canvas",
     "Transformação Digital",
     "Excalidraw/Drawing 2025-01-06 10.26.27.excalidraw.md",
     "SUAP/Configurações ambiente local.md",
-    "Untitled.md",
-    "Tmux",
     "SUAP/Tratativas de erros.md",
     "Excalidraw/Desenho Teste.md",
-    "Excalidraw",
     "Teste Pasta/Página Inicial Obsidian Teste.md",
     "Teste Pasta/Página inicial Obsidian Teste 2.md",
-    "SUAP",
-    "Teste Pasta",
     "Teste 3/Teste 4.md",
-    "Teste 3",
-    "Teste 2",
     "Teste 2/Teste.md"
   ]
 }

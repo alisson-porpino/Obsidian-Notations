@@ -33,10 +33,12 @@
     "useInternalPlugins": false
   },
   "Transformação Digital": "LiChartNetwork",
-  "Transformação Digital/PPE": "LiFolder",
-  "Transformação Digital/PPE/NAPS": "LiFolder",
-  "Transformação Digital/Autenticação": "LiFolder",
-  "Transformação Digital/Autenticação/Login.canvas": "LiPen",
-  "Transformação Digital/Autenticação/Esqueci_Senha.canvas": "LiPen",
-  "Transformação Digital/Autenticação/_Fluxo Auth.canvas": "LiPen"
+  "Transformação Digital/Módulos/Autenticação": "LiFolder",
+  "Transformação Digital/Módulos/Autenticação/Login.canvas": "LiPen",
+  "Transformação Digital/Módulos/Autenticação/_Fluxo Auth.canvas": "LiPen",
+  "Transformação Digital/Módulos/Autenticação/Esqueci_Senha.canvas": "LiPen",
+  "Transformação Digital/Módulos/NAPS": "LiFolder",
+  "Transformação Digital/Módulos/PPE": "LiFolder",
+  "Transformação Digital/Módulos/Comum": "LiFolder",
+  "Transformação Digital/Módulos": "LiFolder"
 }
