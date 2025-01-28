@@ -34,4 +34,7 @@ Existirão as tabelas de relacionamento entre essas tabelas, que serão:
 - Module_Roles: Relacionamento entre módulos e roles.
 - Module_Permissions: Relacionamento entre módulos e permissões.
 - Password_Reset_Tokens: Relacionamento com a tabela de usuários, para redefinição de senha.
-- 
+- Audit_Logs: Tabela para logs de auditoria.
+
+##### Sugestões de tabelas adicionais.
+- Failed_Logins: Tabela para logs de tentativas de login.
