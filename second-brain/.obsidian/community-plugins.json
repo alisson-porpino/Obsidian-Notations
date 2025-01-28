@@ -1,9 +1,11 @@
 [
   "obsidian-git",
-  "github-copilot",
   "obsidian-excalidraw-plugin",
   "terminal",
   "obsidian-mind-map",
   "advanced-canvas",
-  "obsidian-icon-folder"
+  "obsidian-icon-folder",
+  "smart-connections",
+  "excalibrain",
+  "github-copilot"
 ]

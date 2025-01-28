@@ -95,6 +95,8 @@ ___
 
 - Para fechar um painel: `exit` (Digite exit e aperte ENTER)
 
+- Para fechar um painel: `CTRL + D` (Aperte CTRL + D)
+
 - Outra forma para fechar um painel: `CTRL + B | X` (Aperte CTRL + B, em seguida X)
 
 - Para renomear a janela atual: `CTRL + B | ,` (Aperte CTRL + B, em seguida ,)

@@ -14,19 +14,6 @@
       "color": "#ffffff"
     },
     {
-      "id": "56a1d2321adccbb4",
-      "type": "text",
-      "text": "Tentativa de Redefinição",
-      "styleAttributes": {
-        "shape": null
-      },
-      "x": -234,
-      "y": 200,
-      "width": 236,
-      "height": 60,
-      "color": "4"
-    },
-    {
       "id": "0db16c34d14da4ff",
       "type": "text",
       "text": "User sem cadastro?",
@@ -35,7 +22,7 @@
       },
       "x": -214,
       "y": 280,
-      "width": 197,
+      "width": 210,
       "height": 60,
       "color": "2"
     },
@@ -74,7 +61,7 @@
       },
       "x": -162,
       "y": 120,
-      "width": 91,
+      "width": 93,
       "height": 60,
       "color": "4"
     },
@@ -87,7 +74,7 @@
       },
       "x": -284,
       "y": 480,
-      "width": 193,
+      "width": 176,
       "height": 120,
       "color": "1"
     },
@@ -100,7 +87,7 @@
       },
       "x": -23,
       "y": 480,
-      "width": 180,
+      "width": 191,
       "height": 60,
       "color": "2"
     },
@@ -139,7 +126,7 @@
       },
       "x": 23,
       "y": 660,
-      "width": 260,
+      "width": 238,
       "height": 120,
       "color": "1"
     },
@@ -165,8 +152,8 @@
       },
       "x": -284,
       "y": 660,
-      "width": 216,
-      "height": 60,
+      "width": 169,
+      "height": 80,
       "color": "1"
     },
     {
@@ -177,6 +164,19 @@
       "x": -283,
       "y": 820,
       "width": 214,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "56a1d2321adccbb4",
+      "type": "text",
+      "text": "Tentativa de Redefinição",
+      "styleAttributes": {
+        "shape": null
+      },
+      "x": -193,
+      "y": 200,
+      "width": 156,
       "height": 60,
       "color": "4"
     }
