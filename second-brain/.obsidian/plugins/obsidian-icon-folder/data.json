@@ -6,6 +6,7 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiNewspaper",
       "LiPen",
       "LiChartNetwork",
       "LiFolder"
@@ -35,10 +36,11 @@
   "Transformação Digital": "LiChartNetwork",
   "Transformação Digital/Módulos/Autenticação": "LiFolder",
   "Transformação Digital/Módulos/Autenticação/Login.canvas": "LiPen",
-  "Transformação Digital/Módulos/Autenticação/_Fluxo Auth.canvas": "LiPen",
   "Transformação Digital/Módulos/Autenticação/Esqueci_Senha.canvas": "LiPen",
   "Transformação Digital/Módulos/NAPS": "LiFolder",
   "Transformação Digital/Módulos/PPE": "LiFolder",
   "Transformação Digital/Módulos/Comum": "LiFolder",
-  "Transformação Digital/Módulos": "LiFolder"
+  "Transformação Digital/Módulos": "LiFolder",
+  "Transformação Digital/Módulos/Autenticação/Fluxo Auth.canvas": "LiPen",
+  "Transformação Digital/Módulos/Autenticação/Notas": "LiNewspaper"
 }

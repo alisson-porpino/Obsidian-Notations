@@ -1,6 +1,3 @@
-Aqui ficará as informações e algumas anotações pensadas sobre o projeto Transformação Digital.
-## Autenticação
----
 ### Login.
 
 ##### Primeiro login de usuário.
